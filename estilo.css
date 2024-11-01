@@ -1,0 +1,70 @@
+
+#btn-accept {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.work {
+  padding: 5rem;
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#sentence {
+  font-size: larger;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.container-options {
+  background-color: aliceblue;
+  border: 2px solid #b4d6f3;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 25px;
+  width: 50vw;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+.container-options div {
+  background-color: bisque;
+  padding: 10px;
+  border: 2px solid #f6c283;
+  border-radius: 10px;
+  cursor: move;
+}
+
+/* DROP ZONE STYLES */
+.drop-zone {
+  border: 2px solid bisque;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 150px;
+  position: relative;
+}
+
+.drop-zone.dragging-over {
+  border-style: dashed;
+  border-color: #f6c283;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+/* palabra arrastrada */
